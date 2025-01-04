@@ -1,0 +1,68 @@
+.sub {
+  background-color: rgb(189, 17, 17);
+  color :aliceblue;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:16px ;
+  padding-right: 16px;
+  transition: opacity 0.15s;
+  }
+
+  .sub:hover{
+    opacity: 0.7;
+  }
+  .sub:active{
+    opacity: 0.4;
+  }
+.but {
+  background-color: rgb(255, 255, 255);
+  color :rgb(42, 101, 228);
+  border-color:rgb(42, 101, 228);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left:16px ;
+  padding-right: 16px;
+  font-weight: bold;
+  transition:background-color 0.15s, 
+  color 0.15s ;
+  
+  }
+
+  .but:hover{
+    background-color:rgb(42, 101, 228); 
+    color:rgb(255, 255, 255);
+      }
+  .but:active{
+    opacity: 0.7;
+  }
+
+
+.twe {
+  background-color: rgb(42, 111, 228);
+  color :aliceblue;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:16px ;
+  padding-right: 16px;
+  transition:box-shadow 0.15s ;
+  vertical-align: top;
+  
+}
+.twe:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+  
+}
